@@ -21,5 +21,23 @@
       "providerPlugin": "awscloudformation",
       "service": "Lambda"
     }
+  },
+  "parameters": {
+    "AMPLIFY_function_cryptofunction2_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "cryptofunction2"
+        }
+      ]
+    },
+    "AMPLIFY_function_cryptofunction2_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "cryptofunction2"
+        }
+      ]
+    }
   }
 }
