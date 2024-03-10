@@ -52,17 +52,6 @@ app.get('/coins', function(req, res) {
  * Example get method *
  **********************/
 
-/* Creating the coins route */
-app.get('/coins', function(req, res) {
-  const coins = [
-    { name: 'Bitcoin', symbol: 'BTC', price_usd: "10000" },
-    { name: 'Etherium', symbol: 'ETH', price_usd: "400" },
-    { name: 'Litecoin', symbol: 'LTC', price_usd: "150" }
-  ]
-  res.json ({
-    coins
-  })
-})
 
 app.get('/item', function(req, res) {
   // Add your code here
