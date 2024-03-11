@@ -47,6 +47,18 @@ app.get('/coins', function(req, res) {
     .catch(err => res.json({ error: err }))
 })
 
+app.get('/born', async (req, res) => {
+  try {
+    // Fetch GitHub born-on date here
+    const bornOnDate = await fetchGitHubBornOnDate();
+    res.json({ born_on: bornOnDate });
+  } catch (error) {
+    console.error('Error fetching GitHub born-on date:', error);
+    res.status(500).json({ error: 'Internal Server Error' });
+  }
+});
+
+
 
 /**********************
  * Example get method *

@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/pbrummel/amplify-react-app2.git/static/css/main.f855e6bc.css",
+    "main.js": "/pbrummel/amplify-react-app2.git/static/js/main.6d6bb42f.js",
+    "static/js/453.d52bbddf.chunk.js": "/pbrummel/amplify-react-app2.git/static/js/453.d52bbddf.chunk.js",
+    "index.html": "/pbrummel/amplify-react-app2.git/index.html",
+    "main.f855e6bc.css.map": "/pbrummel/amplify-react-app2.git/static/css/main.f855e6bc.css.map",
+    "main.6d6bb42f.js.map": "/pbrummel/amplify-react-app2.git/static/js/main.6d6bb42f.js.map",
+    "453.d52bbddf.chunk.js.map": "/pbrummel/amplify-react-app2.git/static/js/453.d52bbddf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.6d6bb42f.js"
+  ]
+}
